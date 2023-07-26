@@ -73,6 +73,7 @@
         background-image: url(images/team.png),
         linear-gradient(180deg, rgba(18, 18, 18, 0.70), rgba(18, 18, 18, 0.70));
         background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
         background-blend-mode: overlay;
       }
@@ -265,7 +266,7 @@
 
         <!-- after banner section  -->
         <section
-          class="absolute bg-white w-10/12 -bottom-24 right-0 left-0 mx-auto hidden lg:flex items-center justify-around px-6 py-9 rounded-lg shadow-custom"
+          class="absolute bg-white w-10/12 -bottom-32 right-0 left-0 mx-auto hidden lg:flex items-center justify-around px-6 py-9 rounded-lg shadow-custom"
         >
           <div class="flex flex-col items-center justify-center">
             <img src="images/fruit1.png" alt="" />
@@ -909,14 +910,14 @@
       </section>
 
      <!-- Meet the team -->
-           <section class="max-w-7xl mx-auto meet-bg mt-20 py-28 text-white rounded-lg">
+           <section class="max-w-7xl mx-6 lg:mx-auto meet-bg mt-20 py-28 text-white rounded-lg md:mx-6">
                     <h1 class="text-center font-extrabold text-5xl">Meet the team section</h1>
                     <p class="text-center font-medium text-lg my-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
 
-                    <div class="flex justify-evenly items-center">
+                    <div class="flex flex-col md:flex-row lg:flex-row md:flex-wrap justify-evenly items-center gap-y-5">
 
 
-                        <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col md:w-[300px] items-center justify-center">
                             <img src="images/member1.png" alt="">
                             <h1 class="font-bold text-2xl my-[10px]">Awlad Hossain</h1>
                             <p class="font-medium mb-2">Fruits Expert</p>
@@ -927,7 +928,7 @@
                             </div>
                         </div>
 
-                        <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col items-center md:w-[300px] justify-center">
                             <img src="images/member2.png" alt="">
                             <h1 class="font-bold text-2xl my-[10px]">Safia Chowdhury</h1>
                             <p class="font-medium mb-2">Fruits Expert</p>
@@ -938,7 +939,7 @@
                             </div>
                         </div>
 
-                        <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col md:w-[300px] items-center justify-center">
                             <img src="images/member3.png" alt="">
                             <h1 class="font-bold text-2xl my-[10px]">Rokib Hossain</h1>
                             <p class="font-medium mb-2">Fruits Expert</p>
@@ -949,7 +950,7 @@
                             </div>
                         </div>
 
-                        <div class="flex flex-col items-center justify-center">
+                        <div class="flex flex-col md:w-[300px] items-center justify-center">
                             <img src="images/member4.png" alt="">
                             <h1 class="font-bold text-2xl my-[10px]">Chaity</h1>
                             <p class="font-medium mb-2">Fruits Expert</p>
@@ -962,6 +963,77 @@
 
 
                     </div>
+
+           </section>
+
+
+
+           <section class="max-w-7xl mx-6 lg:mx-auto mt-20  md:mx-6" >
+            <h1 class="text-center font-extrabold text-5xl">Why Choose Us</h1>
+            <p class="text-center font-medium text-lg my-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+            <div class="flex justify-between items-center gap-6 my-12">
+                     <div>
+                           <div class="flex items-center gap-x-3">
+                            <div class="bg-gray-300 px-5 py-4 rounded-full text-xl"><i class="fa-solid fa-user-group text-gray-500"></i></div>
+                            <div>
+                                <h1 class="border-b-[1px] border-gray-500 font-extrabold text-2xl mb-2 pb-2 w-fit">Dedicated Team</h1>
+                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            </div>
+                             </div>
+
+                             <div class="flex items-center gap-x-3  my-7">
+                                <div class="bg-gray-300 px-5 py-4 rounded-full text-xl"><i class="fa-regular fa-heart text-gray-500 "></i></div>
+                                <div>
+                                    <h1 class="border-b-[1px] border-gray-500 font-extrabold text-2xl mb-2 pb-2 w-fit">Fresh is Best</h1>
+                                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                </div>
+                                 </div>
+
+                                 <div class="flex items-center gap-x-3">
+                                    <div class="bg-gray-300 px-5 py-4 rounded-full text-xl"><i class="fa-solid fa-gift text-gray-500"></i></div>
+                                    <div>
+                                        <h1 class="border-b-[1px] border-gray-500 font-extrabold text-2xl mb-2 pb-2 w-fit">Gift Certificates</h1>
+                                        <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    </div>
+                                     </div>
+
+                                     
+                     </div>
+                     <div>
+                        <img src="images/whychoose1.png" alt="">
+                     </div>
+                     <div>
+
+                        <div class="flex items-center gap-x-3 flex-row-reverse ">
+                            <div class="bg-gray-300 px-5 py-4 rounded-full text-xl"><i class="fa-brands fa-apple text-gray-500"></i></div>
+                            <div class="flex  flex-col items-end">
+                                <h1 class="border-b-[1px] border-gray-500 font-extrabold text-2xl mb-2 pb-2 text-right w-fit">Integrated Supplier</h1>
+                                <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            </div>
+                             </div>
+
+                             <div class="flex items-center gap-x-3 flex-row-reverse my-7">
+                                <div class="bg-gray-300 px-5 py-4 rounded-full text-xl"><i class="fa-solid fa-ice-cream text-gray-500"></i></div>
+                                <div class="flex  flex-col items-end">
+                                    <h1 class="border-b-[1px] border-gray-500 font-extrabold text-2xl mb-2 pb-2 text-right w-fit">Sustainable Practice</h1>
+                                    <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                </div>
+                                 </div>
+
+                                 <div class="flex items-center gap-x-3 flex-row-reverse">
+                                    <div class="bg-gray-300 px-5 py-4 rounded-full text-xl"><i class="fa-regular fa-thumbs-up text-gray-500"></i></div>
+                                    <div class="flex  flex-col items-end">
+                                        <h1 class="border-b-[1px] border-gray-500 font-extrabold text-2xl mb-2 pb-2 text-right w-fit">The Benefits Only</h1>
+                                        <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    </div>
+                                     </div>
+
+
+                     </div>
+
+
+            </div>
 
            </section>
 
