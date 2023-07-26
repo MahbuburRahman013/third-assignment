@@ -75,11 +75,11 @@
   <body class="lato">
     <header>
       <!-- navbar start -->
-      <nav class="max-w-7xl mx-auto bg-[#F85559] my-12 py-4 px-8 rounded-full">
-        <div class="navbar">
-          <div class="navbar-start">
+      <nav class="max-w-7xl mx-auto md:bg-[#F85559] my-12 p-1 md:py-4 md:px-8 rounded-full">
+        <div class="navbar flex flex-row-reverse md:flex-row justify-between">
+          <div class="navbar-start  w-[35%]">
             <div class="dropdown">
-              <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <label tabindex="0" class="btn btn-ghost md:hidden ml-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -97,15 +97,25 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2  rounded-box w-52 "
               >
+                <div class="absolute right-[150px] shadow bg-base-100 px-6 py-3 rounded-lg">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
                 <li><a>All Fruits</a></li>
+                <li class="border-2 border-gray-300 rounded-full"><a><input
+                    class="rounded-l-full outline-none"
+                    placeholder="Search here"
+                    type="text"
+                  />
+                  <button class=" rounded-r-full">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button></a></li>
+                </div>
               </ul>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden md:flex">
               <ul
                 class="menu menu-horizontal px-1 text-white text-lg font-medium"
               >
@@ -116,13 +126,13 @@
               </ul>
             </div>
           </div>
-          <div class="flex justify-center w-[400px]">
+          <div class="flex justify-center w-[80%] md:w-[30%]">
             <img src="images/logo.png" alt="" />
-            <h1 class="text-[40px] font-bold text-white">Fruit Burst</h1>
+            <h1 class="text-3xl md:text-[40px] font-bold md:text-white">Fruit Burst</h1>
           </div>
-          <div class="navbar-end">
+          <div class="hidden md:navbar-end md:block  md:w-[35%] text-right">
             <input
-              class="w-[300px] py-[10px] pl-5 rounded-l-full outline-none"
+              class="w-[310px] py-[10px] pl-5 rounded-l-full outline-none -mr-2"
               placeholder="Search here"
               type="text"
             />
